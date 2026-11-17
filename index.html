@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thai Top 500 Audio Game</title>
+<style>
+  :root { --bg:#0f172a; --card:#1e293b; --accent:#38bdf8; --good:#22c55e; --warn:#f59e0b; --bad:#ef4444; --text:#e2e8f0; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--text); min-height:100vh; }
+  .container { max-width: 700px; margin: 0 auto; padding: 1.5rem; }
+  h1 { font-size: 1.8rem; margin: 0 0 0.5rem; }
+  .subtitle { color:#94a3b8; margin-bottom: 1.5rem; }
+  .dashboard { display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap:1rem; margin-bottom:1.5rem; }
+  .stat { background:var(--card); padding:1rem; border-radius:12px; text-align:center; }
+  .stat .num { font-size:1.8rem; font-weight:700; color:var(--accent); }
+  .stat .label { font-size:0.85rem; color:#94a3b8; }
+  .modes { display:flex; gap:0.5rem; margin-bottom:1.5rem; flex-wrap:wrap; }
+  button { background:var(--accent); color:#0f172a; border:none; padding:0.75rem 1.25rem; border-radius:10px; font-weight:600; cursor:pointer; font-size:1rem; }
+  button.secondary { background:#334155; color:var(--text); }
+  button.good { background:var(--good); }
+  button.warn { background:var(--warn); }
+  button.bad { background:var(--bad); color:white; }
+  button:disabled { opacity:0.5; cursor:not-allowed; }
+  .card { background:var(--card); border-radius:16px; padding:2rem; text-align:center; min-height:280px; display:flex; flex-direction:column; justify-content:center; align-items:center; }
+  .thai { font-size:3.5rem; margin:0.5rem 0; }
+  .english { font-size:1.4rem; margin:0.5rem 0; min-height:2rem; }
+  .controls { display:flex; gap:0.75rem; margin-top:1.5rem; flex-wrap:wrap; justify-content:center; }
+  .progress-bar { height:8px; background:#334155; border-radius:4px; margin:1rem 0; overflow:hidden; }
+  .progress-fill { height:100%; background:var(--accent); width:0%; transition:width 0.3s; }
+  #quiz-options { display:grid; gap:0.75rem; margin-top:1.5rem; width:100%; }
+  #quiz-options button { background:#334155; color:var(--text); text-align:left; }
+  #quiz-options button.correct { background:var(--good); }
+  #quiz-options button.wrong { background:var(--bad); }
+  .hidden { display:none !important; }
+  footer { margin-top:2rem; text-align:center; color:#64748b; font-size:0.85rem; }
+  #loading { text-align:center; padding:2rem; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🇹🇭 Thai Top 500</h1>
+  <p class="subtitle">Audio-first listening game • Hear it, understand it, master it</p>
+
+  <div id="loading">Loading word list…</div>
+
+  <div id="app" class="hidden">
+    <div class="dashboard">
+      <div class="stat"><div class="num" id="stat-mastered">0</div><div class="label">Mastered</div></div>
+      <div class="stat"><div class="num" id="stat-learning">0</div><div class="label">Learning</div></div>
+      <div class="stat"><div class="num" id="stat-new">500</div><div class="label">New</div></div>
+      <div class="stat"><div class="num" id="stat-pct">0%</div><div class="label">Progress</div></div>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+
+    <div class="modes">
+      <button onclick="startMode('flash')">🎧 Flashcards</button>
+      <button onclick="startMode('quiz')">🎯 Hear & Choose</button>
+      <button class="secondary" onclick="showDashboard()">📊 Dashboard</button>
+      <button class="secondary" onclick="exportProgress()">💾 Export Progress</button>
+    </div>
+
+    <div id="game-area" class="card hidden">
+      <div id="flash-view">
+        <div class="thai" id="flash-thai"></div>
+        <div class="english" id="flash-eng" style="visibility:hidden"></div>
+        <div class="controls">
+          <button onclick="playCurrent()">🔊 Hear again</button>
+          <button class="secondary" onclick="reveal()">Reveal meaning</button>
+        </div>
+        <div id="rate-controls" class="controls hidden">
+          <button class="bad" onclick="rate('again')">Again</button>
+          <button class="warn" onclick="rate('hard')">Hard</button>
+          <button class="good" onclick="rate('good')">Good</button>
+          <button class="good" onclick="rate('easy')">Easy / Mastered</button>
+        </div>
+      </div>
+
+      <div id="quiz-view" class="hidden">
+        <div class="thai" id="quiz-thai" style="font-size:2.2rem">Listen…</div>
+        <button onclick="playCurrent()">🔊 Play word</button>
+        <div id="quiz-options"></div>
+      </div>
+    </div>
+
+    <div id="dash-area" class="card hidden">
+      <h2>Your Progress</h2>
+      <p id="dash-summary"></p>
+      <div class="controls">
+        <button onclick="exportProgress()">💾 Export Progress</button>
+        <button class="secondary" onclick="resetProgress()">Reset all progress</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>Top 500 from Thai National Corpus • Progress saved in your browser</footer>
+</div>
+
+<script>
+let WORDS = [];
+let currentMode = null;
+let currentWord = null;
+let queue = [];
+
+async function init() {
+  try {
+    const res = await fetch('words.json');
+    WORDS = await res.json();
+    loadProgress();
+    document.getElementById('loading').classList.add('hidden');
+    document.getElementById('app').classList.remove('hidden');
+    updateDashboard();
+  } catch (e) {
+    document.getElementById('loading').textContent = 'Failed to load words.json';
+  }
+}
+
+function loadProgress() {
+  const saved = localStorage.getItem('thai500-progress');
+  if (saved) {
+    const prog = JSON.parse(saved);
+    WORDS.forEach(w => {
+      const p = prog[w.rank];
+      if (p) Object.assign(w, p);
+    });
+  }
+}
+function saveProgress() {
+  const prog = {};
+  WORDS.forEach(w => {
+    prog[w.rank] = { mastered: w.mastered, seen: w.seen, correct: w.correct };
+  });
+  localStorage.setItem('thai500-progress', JSON.stringify(prog));
+  updateDashboard();
+}
+function updateDashboard() {
+  const mastered = WORDS.filter(w => w.mastered).length;
+  const learning = WORDS.filter(w => !w.mastered && w.seen > 0).length;
+  const neu = WORDS.length - mastered - learning;
+  document.getElementById('stat-mastered').textContent = mastered;
+  document.getElementById('stat-learning').textContent = learning;
+  document.getElementById('stat-new').textContent = neu;
+  const pct = Math.round((mastered / WORDS.length) * 100);
+  document.getElementById('stat-pct').textContent = pct + '%';
+  document.getElementById('progress-fill').style.width = pct + '%';
+}
+function speak(text) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'th-TH';
+  u.rate = 0.85;
+  window.speechSynthesis.speak(u);
+}
+function playCurrent() {
+  if (currentWord) speak(currentWord.thai);
+}
+function startMode(mode) {
+  currentMode = mode;
+  document.getElementById('game-area').classList.remove('hidden');
+  document.getElementById('dash-area').classList.add('hidden');
+  document.getElementById('flash-view').classList.toggle('hidden', mode !== 'flash');
+  document.getElementById('quiz-view').classList.toggle('hidden', mode !== 'quiz');
+  const proper = WORDS.filter(w => w.english && !w.english.includes('Thai word'));
+  queue = proper.filter(w => !w.mastered).sort(() => Math.random() - 0.5);
+  if (queue.length === 0) queue = proper.sort(() => Math.random() - 0.5);
+  if (queue.length === 0) queue = WORDS.filter(w => !w.mastered).sort(() => Math.random() - 0.5);
+  nextItem();
+}
+function nextItem() {
+  if (queue.length === 0) {
+    alert('All words in this session done! Great job.');
+    return;
+  }
+  currentWord = queue.shift();
+  currentWord.seen = (currentWord.seen || 0) + 1;
+  if (currentMode === 'flash') {
+    document.getElementById('flash-thai').textContent = currentWord.thai;
+    document.getElementById('flash-eng').textContent = currentWord.english + (currentWord.romanization ? `  (${currentWord.romanization})` : '');
+    document.getElementById('flash-eng').style.visibility = 'hidden';
+    document.getElementById('rate-controls').classList.add('hidden');
+    setTimeout(() => speak(currentWord.thai), 300);
+  } else {
+    document.getElementById('quiz-thai').textContent = 'Listen…';
+    setTimeout(() => speak(currentWord.thai), 300);
+    buildQuiz();
+  }
+}
+function reveal() {
+  document.getElementById('flash-eng').style.visibility = 'visible';
+  document.getElementById('rate-controls').classList.remove('hidden');
+}
+function rate(level) {
+  if (level === 'easy' || level === 'good') {
+    currentWord.correct = (currentWord.correct || 0) + 1;
+    if (currentWord.correct >= 3) currentWord.mastered = true;
+  }
+  saveProgress();
+  nextItem();
+}
+function buildQuiz() {
+  const properWords = WORDS.filter(w => w.english && !w.english.includes('Thai word') && w.english.length > 2);
+  const pool = properWords.length > 10 ? properWords : WORDS;
+  const opts = [currentWord];
+  while (opts.length < 4) {
+    const r = pool[Math.floor(Math.random() * pool.length)];
+    if (!opts.some(o => o.rank === r.rank)) opts.push(r);
+  }
+  opts.sort(() => Math.random() - 0.5);
+  const container = document.getElementById('quiz-options');
+  container.innerHTML = '';
+  opts.forEach(o => {
+    const btn = document.createElement('button');
+    btn.textContent = o.english;
+    btn.onclick = () => checkQuiz(o, btn);
+    container.appendChild(btn);
+  });
+}
+function checkQuiz(chosen, btn) {
+  const correct = chosen === currentWord;
+  btn.classList.add(correct ? 'correct' : 'wrong');
+  document.querySelectorAll('#quiz-options button').forEach(b => {
+    b.disabled = true;
+    if (b.textContent === currentWord.english) b.classList.add('correct');
+  });
+  const feedback = document.createElement('div');
+  feedback.style.marginTop = '1rem';
+  feedback.style.fontSize = '1.1rem';
+  feedback.innerHTML = correct
+    ? '✅ Correct!'
+    : `❌ Correct answer: <strong>${currentWord.english}</strong>${currentWord.romanization ? ` (${currentWord.romanization})` : ''}`;
+  document.getElementById('quiz-options').appendChild(feedback);
+  if (correct) {
+    currentWord.correct = (currentWord.correct || 0) + 1;
+    if (currentWord.correct >= 3) currentWord.mastered = true;
+  }
+  setTimeout(() => { saveProgress(); nextItem(); }, 1800);
+}
+function showDashboard() {
+  document.getElementById('game-area').classList.add('hidden');
+  document.getElementById('dash-area').classList.remove('hidden');
+  const m = WORDS.filter(w => w.mastered).length;
+  document.getElementById('dash-summary').textContent = 
+    `You have mastered ${m} / 500 words (${Math.round(m/5)}%). Keep going — the top words give you the biggest boost for real Thai conversations.`;
+}
+function resetProgress() {
+  if (confirm('Reset all progress?')) {
+    localStorage.removeItem('thai500-progress');
+    WORDS.forEach(w => { w.mastered = false; w.seen = 0; w.correct = 0; });
+    updateDashboard();
+    showDashboard();
+  }
+}
+function exportProgress() {
+  const prog = {};
+  WORDS.forEach(w => {
+    if (w.seen > 0 || w.mastered) {
+      prog[w.rank] = {
+        thai: w.thai,
+        english: w.english,
+        mastered: w.mastered,
+        seen: w.seen || 0,
+        correct: w.correct || 0
+      };
+    }
+  });
+  const mastered = WORDS.filter(w => w.mastered).length;
+  const summary = {
+    exportedAt: new Date().toISOString(),
+    masteredCount: mastered,
+    learningCount: WORDS.filter(w => !w.mastered && w.seen > 0).length,
+    total: 500,
+    progressPercent: Math.round((mastered / 500) * 100),
+    words: prog
+  };
+  const blob = new Blob([JSON.stringify(summary, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `thai500-progress-${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+init();
+</script>
+</body>
+</html>
