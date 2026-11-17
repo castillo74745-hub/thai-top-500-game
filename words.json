@@ -1,1 +1,4502 @@
-TOO_LARGE_FOR_THIS_CALL_PLEASE_USE_LOCAL
+[
+  {
+    "rank": 1,
+    "thai": "ที่",
+    "english": "at / that / place",
+    "romanization": "tee",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 2,
+    "thai": "การ",
+    "english": "the act of… (nominalizer)",
+    "romanization": "gaan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 3,
+    "thai": "เป็น",
+    "english": "to be / is",
+    "romanization": "pen",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 4,
+    "thai": "ใน",
+    "english": "in / inside",
+    "romanization": "nai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 5,
+    "thai": "ของ",
+    "english": "of / belonging to",
+    "romanization": "khawng",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 6,
+    "thai": "มี",
+    "english": "to have / there is",
+    "romanization": "mee",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 7,
+    "thai": "จะ",
+    "english": "will / going to",
+    "romanization": "ja",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 8,
+    "thai": "และ",
+    "english": "and",
+    "romanization": "lae",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 9,
+    "thai": "ไม่",
+    "english": "not",
+    "romanization": "mai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 10,
+    "thai": "ได้",
+    "english": "can / get / able to",
+    "romanization": "dai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 11,
+    "thai": "ให้",
+    "english": "to give / for / let",
+    "romanization": "hai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 12,
+    "thai": "ว่า",
+    "english": "that (say)",
+    "romanization": "waa",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 13,
+    "thai": "ไป",
+    "english": "to go",
+    "romanization": "pai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 14,
+    "thai": "มา",
+    "english": "to come",
+    "romanization": "maa",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 15,
+    "thai": "ก็",
+    "english": "also / then",
+    "romanization": "gaw",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 16,
+    "thai": "ความ",
+    "english": "the quality of… (nominalizer)",
+    "romanization": "kwaam",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 17,
+    "thai": "คน",
+    "english": "person",
+    "romanization": "khon",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 18,
+    "thai": "กับ",
+    "english": "with",
+    "romanization": "gap",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 19,
+    "thai": "แล้ว",
+    "english": "already / then",
+    "romanization": "laeo",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 20,
+    "thai": "อยู่",
+    "english": "to stay / be located",
+    "romanization": "yuu",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 21,
+    "thai": "หรือ",
+    "english": "or",
+    "romanization": "rue",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 22,
+    "thai": "จาก",
+    "english": "from",
+    "romanization": "jaak",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 23,
+    "thai": "กัน",
+    "english": "together / each other",
+    "romanization": "gan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 24,
+    "thai": "นี้",
+    "english": "this",
+    "romanization": "nee",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 25,
+    "thai": "แต่",
+    "english": "but",
+    "romanization": "tae",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 26,
+    "thai": "อย่าง",
+    "english": "like / manner of",
+    "romanization": "yaang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 27,
+    "thai": "ต้อง",
+    "english": "must / have to",
+    "romanization": "tawng",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 28,
+    "thai": "ด้วย",
+    "english": "with / also",
+    "romanization": "duay",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 29,
+    "thai": "ขึ้น",
+    "english": "up / increase",
+    "romanization": "kheun",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 30,
+    "thai": "เขา",
+    "english": "he / she / they",
+    "romanization": "khao",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 31,
+    "thai": "นั้น",
+    "english": "that",
+    "romanization": "nan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 32,
+    "thai": "ผู้",
+    "english": "person who…",
+    "romanization": "phuu",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 33,
+    "thai": "ซึ่ง",
+    "english": "which / who",
+    "romanization": "seung",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 34,
+    "thai": "ตาม",
+    "english": "according to / follow",
+    "romanization": "taam",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 35,
+    "thai": "มาก",
+    "english": "very / a lot",
+    "romanization": "maak",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 36,
+    "thai": "โดย",
+    "english": "by / via",
+    "romanization": "dooy",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 37,
+    "thai": "ใช้",
+    "english": "to use",
+    "romanization": "chai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 38,
+    "thai": "ทาง",
+    "english": "way / road",
+    "romanization": "thaang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 39,
+    "thai": "เรื่อง",
+    "english": "story / matter",
+    "romanization": "rueang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 40,
+    "thai": "เรา",
+    "english": "we / us",
+    "romanization": "rao",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 41,
+    "thai": "ยัง",
+    "english": "still / yet",
+    "romanization": "yang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 42,
+    "thai": "ทำ",
+    "english": "to do / make",
+    "romanization": "tham",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 43,
+    "thai": "เพื่อ",
+    "english": "for / in order to",
+    "romanization": "phuea",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 44,
+    "thai": "ผม",
+    "english": "I (male)",
+    "romanization": "phom",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 45,
+    "thai": "อีก",
+    "english": "more / again",
+    "romanization": "eek",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 46,
+    "thai": "หนึ่ง",
+    "english": "one",
+    "romanization": "neung",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 47,
+    "thai": "เมื่อ",
+    "english": "when",
+    "romanization": "muea",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 48,
+    "thai": "ถึง",
+    "english": "to / until / arrive",
+    "romanization": "theung",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 49,
+    "thai": "เข้า",
+    "english": "to enter",
+    "romanization": "khao",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 50,
+    "thai": "เพราะ",
+    "english": "because",
+    "romanization": "phraw",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 51,
+    "thai": "ดี",
+    "english": "good",
+    "romanization": "dee",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 52,
+    "thai": "ออก",
+    "english": "out / exit",
+    "romanization": "awk",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 53,
+    "thai": "ฉัน",
+    "english": "I",
+    "romanization": "chan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 54,
+    "thai": "เกิด",
+    "english": "to happen / be born",
+    "romanization": "goet",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 55,
+    "thai": "คือ",
+    "english": "is / namely",
+    "romanization": "khue",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 56,
+    "thai": "เห็น",
+    "english": "to see",
+    "romanization": "hen",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 57,
+    "thai": "จึง",
+    "english": "thus / therefore",
+    "romanization": "jeung",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 58,
+    "thai": "ทำให้",
+    "english": "to cause / make",
+    "romanization": "tham-hai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 59,
+    "thai": "กว่า",
+    "english": "than / more than",
+    "romanization": "kwaa",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 60,
+    "thai": "ไทย",
+    "english": "Thai",
+    "romanization": "thai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 61,
+    "thai": "ไว้",
+    "english": "to keep / for",
+    "romanization": "wai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 62,
+    "thai": "ตัว",
+    "english": "body / self",
+    "romanization": "tua",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 63,
+    "thai": "ปี",
+    "english": "year",
+    "romanization": "pee",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 64,
+    "thai": "เธอ",
+    "english": "you (informal)",
+    "romanization": "thoe",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 65,
+    "thai": "คุณ",
+    "english": "you (polite)",
+    "romanization": "khun",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 66,
+    "thai": "ต่อ",
+    "english": "to / against / continue",
+    "romanization": "taw",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 67,
+    "thai": "ทั้ง",
+    "english": "all / both",
+    "romanization": "thang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 68,
+    "thai": "มัน",
+    "english": "it",
+    "romanization": "man",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 69,
+    "thai": "เลย",
+    "english": "so / then (particle)",
+    "romanization": "loey",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 70,
+    "thai": "ถ้า",
+    "english": "if",
+    "romanization": "thaa",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 71,
+    "thai": "อะไร",
+    "english": "what",
+    "romanization": "arai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 72,
+    "thai": "เวลา",
+    "english": "time",
+    "romanization": "welaa",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 73,
+    "thai": "ลง",
+    "english": "down",
+    "romanization": "long",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 74,
+    "thai": "ต่าง",
+    "english": "different",
+    "romanization": "taang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 75,
+    "thai": "ส่วน",
+    "english": "part",
+    "romanization": "suan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 76,
+    "thai": "ประเทศ",
+    "english": "country",
+    "romanization": "prathet",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 77,
+    "thai": "อาจ",
+    "english": "may / might",
+    "romanization": "aat",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 78,
+    "thai": "แบบ",
+    "english": "style / type",
+    "romanization": "baep",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 79,
+    "thai": "ถูก",
+    "english": "correct / cheap",
+    "romanization": "thuuk",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 80,
+    "thai": "ทุก",
+    "english": "every",
+    "romanization": "thuk",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 81,
+    "thai": "วัน",
+    "english": "day",
+    "romanization": "wan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 82,
+    "thai": "ก่อน",
+    "english": "before",
+    "romanization": "gawn",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 83,
+    "thai": "เช่น",
+    "english": "such as / for example",
+    "romanization": "chen",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 84,
+    "thai": "อื่น",
+    "english": "other",
+    "romanization": "eun",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 85,
+    "thai": "ดู",
+    "english": "to look / watch",
+    "romanization": "duu",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 86,
+    "thai": "ครั้ง",
+    "english": "time (occasion)",
+    "romanization": "khrang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 87,
+    "thai": "รู้",
+    "english": "to know",
+    "romanization": "ruu",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 88,
+    "thai": "เอา",
+    "english": "to take",
+    "romanization": "ao",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 89,
+    "thai": "สอง",
+    "english": "two",
+    "romanization": "sawng",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 90,
+    "thai": "นำ",
+    "english": "to lead / bring",
+    "romanization": "nam",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 91,
+    "thai": "งาน",
+    "english": "work / job",
+    "romanization": "ngaan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 92,
+    "thai": "สามารถ",
+    "english": "can / able",
+    "romanization": "samaat",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 93,
+    "thai": "นาย",
+    "english": "mister / boss",
+    "romanization": "naai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 94,
+    "thai": "นะ",
+    "english": "softening particle",
+    "romanization": "na",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 95,
+    "thai": "หน้า",
+    "english": "face / front / page",
+    "romanization": "naa",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 96,
+    "thai": "บอก",
+    "english": "to tell",
+    "romanization": "bawk",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 97,
+    "thai": "กลับ",
+    "english": "to return",
+    "romanization": "glap",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 98,
+    "thai": "แห่ง",
+    "english": "of (formal) / place",
+    "romanization": "haeng",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 99,
+    "thai": "บาง",
+    "english": "some",
+    "romanization": "baang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 100,
+    "thai": "ได้รับ",
+    "english": "to receive",
+    "romanization": "dai-rap",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 101,
+    "thai": "จน",
+    "english": "until",
+    "romanization": "jon",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 102,
+    "thai": "ด้าน",
+    "english": "side / aspect",
+    "romanization": "daan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 103,
+    "thai": "คิด",
+    "english": "to think",
+    "romanization": "khit",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 104,
+    "thai": "เด็ก",
+    "english": "child",
+    "romanization": "dek",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 105,
+    "thai": "ชีวิต",
+    "english": "life",
+    "romanization": "chiwit",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 106,
+    "thai": "สิ่ง",
+    "english": "thing",
+    "romanization": "sing",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 107,
+    "thai": "พระ",
+    "english": "monk / sacred",
+    "romanization": "phra",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 108,
+    "thai": "เหมือน",
+    "english": "like / similar",
+    "romanization": "muean",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 109,
+    "thai": "รับ",
+    "english": "to receive / accept",
+    "romanization": "rap",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 110,
+    "thai": "หลาย",
+    "english": "many",
+    "romanization": "laai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 111,
+    "thai": "พูด",
+    "english": "to speak / say",
+    "romanization": "phuut",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 112,
+    "thai": "บ้าน",
+    "english": "house / home",
+    "romanization": "baan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 113,
+    "thai": "ใหม่",
+    "english": "new",
+    "romanization": "mai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 114,
+    "thai": "เคย",
+    "english": "ever / used to",
+    "romanization": "khoey",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 115,
+    "thai": "นี่",
+    "english": "this (here)",
+    "romanization": "nee",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 116,
+    "thai": "กลุ่ม",
+    "english": "group",
+    "romanization": "glum",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 117,
+    "thai": "ปัญหา",
+    "english": "problem",
+    "romanization": "panhaa",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 118,
+    "thai": "สังคม",
+    "english": "society",
+    "romanization": "sangkhom",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 119,
+    "thai": "ใคร",
+    "english": "who",
+    "romanization": "khrai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 120,
+    "thai": "หา",
+    "english": "to look for / find",
+    "romanization": "haa",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 121,
+    "thai": "คำ",
+    "english": "word",
+    "romanization": "kham",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 122,
+    "thai": "อยาก",
+    "english": "to want",
+    "romanization": "yaak",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 123,
+    "thai": "ใด",
+    "english": "any / which",
+    "romanization": "dai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 124,
+    "thai": "เสียง",
+    "english": "sound / voice",
+    "romanization": "siang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 125,
+    "thai": "คง",
+    "english": "probably",
+    "romanization": "khong",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 126,
+    "thai": "มอง",
+    "english": "to look at",
+    "romanization": "mawng",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 127,
+    "thai": "ระหว่าง",
+    "english": "between",
+    "romanization": "rawang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 128,
+    "thai": "สำหรับ",
+    "english": "for",
+    "romanization": "samrap",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 129,
+    "thai": "น้ำ",
+    "english": "water",
+    "romanization": "naam",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 130,
+    "thai": "ผล",
+    "english": "result / fruit",
+    "romanization": "phon",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 131,
+    "thai": "ใช่",
+    "english": "yes",
+    "romanization": "chai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 132,
+    "thai": "แสดง",
+    "english": "to show",
+    "romanization": "sadaeng",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 133,
+    "thai": "กำลัง",
+    "english": "currently / power",
+    "romanization": "gamlang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 134,
+    "thai": "สร้าง",
+    "english": "high-frequency Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 135,
+    "thai": "ท่าน",
+    "english": "high-frequency Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 136,
+    "thai": "เงิน",
+    "english": "money",
+    "romanization": "ngoen",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 137,
+    "thai": "โลก",
+    "english": "high-frequency Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 138,
+    "thai": "ช่วย",
+    "english": "to help",
+    "romanization": "chuay",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 139,
+    "thai": "กำหนด",
+    "english": "high-frequency Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 140,
+    "thai": "จริง",
+    "english": "high-frequency Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 141,
+    "thai": "ขอ",
+    "english": "to ask for / request",
+    "romanization": "khaw",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 142,
+    "thai": "ทำงาน",
+    "english": "to work",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 143,
+    "thai": "ระบบ",
+    "english": "high-frequency Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 144,
+    "thai": "ใหญ่",
+    "english": "big / large",
+    "romanization": "yai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 145,
+    "thai": "ลูก",
+    "english": "child",
+    "romanization": "luuk",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 146,
+    "thai": "เอง",
+    "english": "high-frequency Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 147,
+    "thai": "อัน",
+    "english": "high-frequency Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 148,
+    "thai": "พอ",
+    "english": "high-frequency Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 149,
+    "thai": "ที่สุด",
+    "english": "high-frequency Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 150,
+    "thai": "แม่",
+    "english": "mother",
+    "romanization": "mae",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 151,
+    "thai": "พบ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 152,
+    "thai": "บน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 153,
+    "thai": "เสีย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 154,
+    "thai": "แก่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 155,
+    "thai": "ควร",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 156,
+    "thai": "เมือง",
+    "english": "city",
+    "romanization": "mueang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 157,
+    "thai": "น้อย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 158,
+    "thai": "เดิน",
+    "english": "to walk",
+    "romanization": "doen",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 159,
+    "thai": "สี",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 160,
+    "thai": "น่า",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 161,
+    "thai": "พี่",
+    "english": "older sibling",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 162,
+    "thai": "ร่วม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 163,
+    "thai": "พัฒนา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 164,
+    "thai": "ใจ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 165,
+    "thai": "หาก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 166,
+    "thai": "มาตรา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 167,
+    "thai": "สูง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 168,
+    "thai": "กิน",
+    "english": "to eat",
+    "romanization": "gin",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 169,
+    "thai": "ส่ง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 170,
+    "thai": "เดียว",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 171,
+    "thai": "แรก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 172,
+    "thai": "กรณี",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 173,
+    "thai": "ระดับ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 174,
+    "thai": "ตัวเอง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 175,
+    "thai": "กฎหมาย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 176,
+    "thai": "กล่าว",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 177,
+    "thai": "อาหาร",
+    "english": "food",
+    "romanization": "aahan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 178,
+    "thai": "เกี่ยวกับ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 179,
+    "thai": "ดังกล่าว",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 180,
+    "thai": "นัก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 181,
+    "thai": "จัด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 182,
+    "thai": "ช่วง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 183,
+    "thai": "ฝ่าย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 184,
+    "thai": "เพียง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 185,
+    "thai": "ลักษณะ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 186,
+    "thai": "หลัง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 187,
+    "thai": "จำนวน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 188,
+    "thai": "ข้อ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 189,
+    "thai": "พวก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 190,
+    "thai": "ตน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 191,
+    "thai": "รวม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 192,
+    "thai": "เริ่ม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 193,
+    "thai": "สาว",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 194,
+    "thai": "เพื่อน",
+    "english": "friend",
+    "romanization": "phuean",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 195,
+    "thai": "บุคคล",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 196,
+    "thai": "ถาม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 197,
+    "thai": "ครับ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 198,
+    "thai": "บ้าง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 199,
+    "thai": "พิจารณา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 200,
+    "thai": "อำนาจ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 201,
+    "thai": "รัก",
+    "english": "to love",
+    "romanization": "rak",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 202,
+    "thai": "วันที่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 203,
+    "thai": "ภาพ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 204,
+    "thai": "ตา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 205,
+    "thai": "ค่า",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 206,
+    "thai": "ผ่าน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 207,
+    "thai": "ห้อง",
+    "english": "room",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 208,
+    "thai": "หนังสือ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 209,
+    "thai": "ข้อมูล",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 210,
+    "thai": "ยิ่ง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 211,
+    "thai": "ดัง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 212,
+    "thai": "เพิ่ม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 213,
+    "thai": "ทรง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 214,
+    "thai": "ตั้งแต่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 215,
+    "thai": "พ่อ",
+    "english": "father",
+    "romanization": "phaw",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 216,
+    "thai": "ต่อไป",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 217,
+    "thai": "สำคัญ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 218,
+    "thai": "เปิด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 219,
+    "thai": "เศรษฐกิจ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 220,
+    "thai": "ไหน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 221,
+    "thai": "กระทำ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 222,
+    "thai": "ตั้ง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 223,
+    "thai": "เข้าใจ",
+    "english": "to understand",
+    "romanization": "khao-jai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 224,
+    "thai": "ชอบ",
+    "english": "to like",
+    "romanization": "chawp",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 225,
+    "thai": "ภาษา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 226,
+    "thai": "ตรง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 227,
+    "thai": "เรียน",
+    "english": "to study / learn",
+    "romanization": "rian",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 228,
+    "thai": "ตอน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 229,
+    "thai": "รัฐ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 230,
+    "thai": "การศึกษา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 231,
+    "thai": "ก็ได้",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 232,
+    "thai": "รู้สึก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 233,
+    "thai": "ขนาด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 234,
+    "thai": "เท่านั้น",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 235,
+    "thai": "นั่ง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 236,
+    "thai": "ชื่อ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 237,
+    "thai": "เดือน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 238,
+    "thai": "ชาติ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 239,
+    "thai": "ผิด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 240,
+    "thai": "รัฐบาล",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 241,
+    "thai": "หลัก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 242,
+    "thai": "นาน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 243,
+    "thai": "รถ",
+    "english": "car / vehicle",
+    "romanization": "rot",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 244,
+    "thai": "จีน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 245,
+    "thai": "ฟัง",
+    "english": "to listen",
+    "romanization": "fang",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 246,
+    "thai": "เล็ก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 247,
+    "thai": "ภายใน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 248,
+    "thai": "แต่ละ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 249,
+    "thai": "ละ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 250,
+    "thai": "ต้องการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 251,
+    "thai": "ตาย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 252,
+    "thai": "มือ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 253,
+    "thai": "หญิง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 254,
+    "thai": "เรียก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 255,
+    "thai": "รูป",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 256,
+    "thai": "บาท",
+    "english": "baht",
+    "romanization": "baat",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 257,
+    "thai": "ประชาชน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 258,
+    "thai": "ยา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 259,
+    "thai": "มนุษย์",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 260,
+    "thai": "สาม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 261,
+    "thai": "ลด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 262,
+    "thai": "ผลิต",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 263,
+    "thai": "เล่น",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 264,
+    "thai": "ซื้อ",
+    "english": "to buy",
+    "romanization": "sue",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 265,
+    "thai": "หมด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 266,
+    "thai": "การเมือง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 267,
+    "thai": "ขาย",
+    "english": "to sell",
+    "romanization": "khaai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 268,
+    "thai": "เสนอ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 269,
+    "thai": "ปฏิบัติ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 270,
+    "thai": "ชาว",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 271,
+    "thai": "พร้อม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 272,
+    "thai": "มัก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 273,
+    "thai": "รักษา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 274,
+    "thai": "เลือก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 275,
+    "thai": "อ่าน",
+    "english": "to read",
+    "romanization": "aan",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 276,
+    "thai": "อย่างไร",
+    "english": "how",
+    "romanization": "yaang-rai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 277,
+    "thai": "เขียน",
+    "english": "to write",
+    "romanization": "khian",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 278,
+    "thai": "ก็คือ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 279,
+    "thai": "ล่ะ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 280,
+    "thai": "ระยะ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 281,
+    "thai": "ค่ะ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 282,
+    "thai": "ตลอด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 283,
+    "thai": "สู่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 284,
+    "thai": "ความคิด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 285,
+    "thai": "หรือไม่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 286,
+    "thai": "หน้าที่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 287,
+    "thai": "ราคา",
+    "english": "price",
+    "romanization": "rakhaa",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 288,
+    "thai": "ประชุม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 289,
+    "thai": "ผู้หญิง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 290,
+    "thai": "ติด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 291,
+    "thai": "ใส่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 292,
+    "thai": "ศึกษา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 293,
+    "thai": "เก็บ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 294,
+    "thai": "ชั้น",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 295,
+    "thai": "เดียวกัน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 296,
+    "thai": "สิทธิ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 297,
+    "thai": "ประโยชน์",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 298,
+    "thai": "คณะกรรมการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 299,
+    "thai": "แค่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 300,
+    "thai": "เปลี่ยน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 301,
+    "thai": "ปัจจุบัน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 302,
+    "thai": "เจ้า",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 303,
+    "thai": "พื้นที่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 304,
+    "thai": "คะ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 305,
+    "thai": "วิธี",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 306,
+    "thai": "ตำแหน่ง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 307,
+    "thai": "ทำไม",
+    "english": "why",
+    "romanization": "tham-mai",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 308,
+    "thai": "ประจำ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 309,
+    "thai": "พยายาม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 310,
+    "thai": "เนื่องจาก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 311,
+    "thai": "โอกาส",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 312,
+    "thai": "แม้",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 313,
+    "thai": "สมัย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 314,
+    "thai": "อย่า",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 315,
+    "thai": "สัมพันธ์",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 316,
+    "thai": "ประเภท",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 317,
+    "thai": "เหตุ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 318,
+    "thai": "ตอบ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 319,
+    "thai": "วัฒนธรรม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 320,
+    "thai": "ตนเอง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 321,
+    "thai": "นั่น",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 322,
+    "thai": "สัก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 323,
+    "thai": "สินค้า",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 324,
+    "thai": "เดิม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 325,
+    "thai": "จำเป็น",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 326,
+    "thai": "เปลี่ยนแปลง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 327,
+    "thai": "ถือ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 328,
+    "thai": "เล่า",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 329,
+    "thai": "ประกอบ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 330,
+    "thai": "ชนิด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 331,
+    "thai": "กระทรวง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 332,
+    "thai": "ปรากฏ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 333,
+    "thai": "แล้วก็",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 334,
+    "thai": "ชาย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 335,
+    "thai": "ดำเนินการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 336,
+    "thai": "รอบ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 337,
+    "thai": "บริษัท",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 338,
+    "thai": "จังหวัด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 339,
+    "thai": "ใบ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 340,
+    "thai": "นอน",
+    "english": "to sleep",
+    "romanization": "nawn",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 341,
+    "thai": "ทั้งหมด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 342,
+    "thai": "เกิน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 343,
+    "thai": "สุข",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 344,
+    "thai": "รู้จัก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 345,
+    "thai": "ครู",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 346,
+    "thai": "โดยเฉพาะ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 347,
+    "thai": "ดังนั้น",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 348,
+    "thai": "ร้าน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 349,
+    "thai": "บริการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 350,
+    "thai": "ทราบ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 351,
+    "thai": "ประมาณ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 352,
+    "thai": "จุด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 353,
+    "thai": "ง่าย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 354,
+    "thai": "โครงการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 355,
+    "thai": "ตัวอย่าง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 356,
+    "thai": "ข้าง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 357,
+    "thai": "ภาค",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 358,
+    "thai": "เรียกว่า",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 359,
+    "thai": "คืน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 360,
+    "thai": "หรอก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 361,
+    "thai": "โรค",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 362,
+    "thai": "อาการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 363,
+    "thai": "อายุ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 364,
+    "thai": "เหล่านี้",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 365,
+    "thai": "พา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 366,
+    "thai": "แก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 367,
+    "thai": "แตกต่าง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 368,
+    "thai": "วิธีการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 369,
+    "thai": "น้อง",
+    "english": "younger sibling",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 370,
+    "thai": "หมอ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 371,
+    "thai": "ความรู้สึก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 372,
+    "thai": "แทน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 373,
+    "thai": "ที่อยู่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 374,
+    "thai": "เชื่อ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 375,
+    "thai": "ล้าน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 376,
+    "thai": "ยาว",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 377,
+    "thai": "ราชการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 378,
+    "thai": "ครอบครัว",
+    "english": "family",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 379,
+    "thai": "ไหม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 380,
+    "thai": "เดินทาง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 381,
+    "thai": "นา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 382,
+    "thai": "โรงเรียน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 383,
+    "thai": "คณะ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 384,
+    "thai": "สภา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 385,
+    "thai": "สภาพ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 386,
+    "thai": "ที",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 387,
+    "thai": "พรรค",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 388,
+    "thai": "วัด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 389,
+    "thai": "ประกาศ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 390,
+    "thai": "นาง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 391,
+    "thai": "หัว",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 392,
+    "thai": "กลาง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 393,
+    "thai": "แรง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 394,
+    "thai": "คู่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 395,
+    "thai": "ตลาด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 396,
+    "thai": "กลายเป็น",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 397,
+    "thai": "จับ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 398,
+    "thai": "วิจัย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 399,
+    "thai": "แนว",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 400,
+    "thai": "ข้าว",
+    "english": "rice",
+    "romanization": "khao",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 401,
+    "thai": "หัน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 402,
+    "thai": "ไม่ว่า",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 403,
+    "thai": "เฉพาะ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 404,
+    "thai": "ยก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 405,
+    "thai": "อาศัย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 406,
+    "thai": "ย่อม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 407,
+    "thai": "ชุด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 408,
+    "thai": "หนู",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 409,
+    "thai": "นโยบาย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 410,
+    "thai": "น่ะ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 411,
+    "thai": "เท่า",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 412,
+    "thai": "ความรู้",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 413,
+    "thai": "ยอม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 414,
+    "thai": "ราย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 415,
+    "thai": "ควบคุม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 416,
+    "thai": "ธรรมชาติ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 417,
+    "thai": "วาง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 418,
+    "thai": "ส่วนใหญ่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 419,
+    "thai": "ปกติ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 420,
+    "thai": "ยืน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 421,
+    "thai": "ประการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 422,
+    "thai": "บริหาร",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 423,
+    "thai": "สัญญา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 424,
+    "thai": "สมาชิก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 425,
+    "thai": "นิยม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 426,
+    "thai": "รอ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 427,
+    "thai": "หลังจาก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 428,
+    "thai": "ต้น",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 429,
+    "thai": "สิ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 430,
+    "thai": "อนุญาต",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 431,
+    "thai": "ร่าง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 432,
+    "thai": "สอน",
+    "english": "to teach",
+    "romanization": "sawn",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 433,
+    "thai": "ญี่ปุ่น",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 434,
+    "thai": "ทางการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 435,
+    "thai": "เปล่า",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 436,
+    "thai": "ใกล้",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 437,
+    "thai": "สิบ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 438,
+    "thai": "แก้ไข",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 439,
+    "thai": "เพลง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 440,
+    "thai": "พิเศษ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 441,
+    "thai": "จัดการ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 442,
+    "thai": "ปาก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 443,
+    "thai": "เป็นต้น",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 444,
+    "thai": "ความหมาย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 445,
+    "thai": "บริเวณ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 446,
+    "thai": "ยิ้ม",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 447,
+    "thai": "ทั้งนี้",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 448,
+    "thai": "ยุค",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 449,
+    "thai": "สัตว์",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 450,
+    "thai": "บท",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 451,
+    "thai": "รวมทั้ง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 452,
+    "thai": "เขต",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 453,
+    "thai": "ดูแล",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 454,
+    "thai": "หาย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 455,
+    "thai": "นอก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 456,
+    "thai": "ไม้",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 457,
+    "thai": "บังคับ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 458,
+    "thai": "ยาก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 459,
+    "thai": "สาย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 460,
+    "thai": "อัตรา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 461,
+    "thai": "ได้แก่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 462,
+    "thai": "เชิง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 463,
+    "thai": "ตรวจ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 464,
+    "thai": "วันนี้",
+    "english": "today",
+    "romanization": "wan-nee",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 465,
+    "thai": "สำนักงาน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 466,
+    "thai": "จบ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 467,
+    "thai": "สัมภาษณ์",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 468,
+    "thai": "ทันที",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 469,
+    "thai": "เจอ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 470,
+    "thai": "ยอมรับ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 471,
+    "thai": "เจ้าของ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 472,
+    "thai": "ผู้ชาย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 473,
+    "thai": "นอกจาก",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 474,
+    "thai": "ชุมชน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 475,
+    "thai": "ทั่ว",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 476,
+    "thai": "ขาด",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 477,
+    "thai": "ยังไง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 478,
+    "thai": "อา",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 479,
+    "thai": "ไง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 480,
+    "thai": "สวย",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 481,
+    "thai": "เจ้าหน้าที่",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 482,
+    "thai": "รายงาน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 483,
+    "thai": "ข่าว",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 484,
+    "thai": "ฉบับ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 485,
+    "thai": "ฐานะ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 486,
+    "thai": "มิ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 487,
+    "thai": "สถาบัน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 488,
+    "thai": "ประธาน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 489,
+    "thai": "ปรับ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 490,
+    "thai": "สนับสนุน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 491,
+    "thai": "โต",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 492,
+    "thai": "เกี่ยวข้อง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 493,
+    "thai": "แพทย์",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 494,
+    "thai": "ดังนี้",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 495,
+    "thai": "เสมอ",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 496,
+    "thai": "หล่อน",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 497,
+    "thai": "ตอนนี้",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 498,
+    "thai": "เครื่อง",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 499,
+    "thai": "แก้",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  },
+  {
+    "rank": 500,
+    "thai": "ทหาร",
+    "english": "common Thai word",
+    "romanization": "",
+    "mastered": false,
+    "seen": 0,
+    "correct": 0
+  }
+]
