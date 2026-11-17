@@ -191,10 +191,14 @@ function reveal() {
   document.getElementById('rate-controls').classList.remove('hidden');
 }
 function rate(level) {
-  if (level === 'easy' || level === 'good') {
+  // Require stronger evidence before marking mastered
+  if (level === 'easy') {
+    currentWord.correct = (currentWord.correct || 0) + 2;
+  } else if (level === 'good') {
     currentWord.correct = (currentWord.correct || 0) + 1;
-    if (currentWord.correct >= 3) currentWord.mastered = true;
   }
+  // Need at least 5 solid correct responses before mastered
+  if ((currentWord.correct || 0) >= 5) currentWord.mastered = true;
   saveProgress();
   nextItem();
 }
@@ -232,7 +236,8 @@ function checkQuiz(chosen, btn) {
   document.getElementById('quiz-options').appendChild(feedback);
   if (correct) {
     currentWord.correct = (currentWord.correct || 0) + 1;
-    if (currentWord.correct >= 3) currentWord.mastered = true;
+    // Quiz correct also counts toward mastery, but still needs several successes
+    if ((currentWord.correct || 0) >= 5) currentWord.mastered = true;
   }
   setTimeout(() => { saveProgress(); nextItem(); }, 1800);
 }
